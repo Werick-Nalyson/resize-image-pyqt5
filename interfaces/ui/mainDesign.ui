@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Redimensionar imagem</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #EDF2F4;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">color: #1B1332;
+font-size: 12px;</string>
+      </property>
+      <property name="text">
+       <string>Largura:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="input_width">
+      <property name="styleSheet">
+       <string notr="true">border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+color: #2D6A4F;
+border: 1px solid #2D6A4F;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QPushButton" name="btn_resize_file">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #FFF;
+background: #1B4332;
+border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+border: 1px solid #1B4332;</string>
+      </property>
+      <property name="text">
+       <string>Redimensionar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color: #1B1332;
+font-size: 12px;</string>
+      </property>
+      <property name="text">
+       <string>Altura:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="input_height">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+color: #2D6A4F;
+border: 1px solid #2D6A4F;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QPushButton" name="btn_save_file">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #FFF;
+background: #52B788;
+border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+border: 1px solid #52B788;</string>
+      </property>
+      <property name="text">
+       <string>Salvar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="5">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="styleSheet">
+       <string notr="true">border: 0;</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>553</width>
+         <height>333</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_img">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QPushButton" name="btn_choose_file">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #FFF;
+background: #1B4332;
+border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+border: 1px solid #1B4332;</string>
+      </property>
+      <property name="text">
+       <string>Escolher arquivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QLineEdit" name="input_open_file">
+      <property name="styleSheet">
+       <string notr="true">border-radius: 3px;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+color: #2D6A4F;
+border: 1px solid #2D6A4F;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
